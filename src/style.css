@@ -3,18 +3,36 @@ body{
   width:100%;
   height:100%;
   background-color: #00BFA5;
-  overflow-y scroll;
+/*overflow-y scroll;*/
 }
 
 header{
   width: 100%;
-  height: 30%;
+  height: 40%;
   margin: 0px;
   padding: 0px;
 }
 
 nav.linksHP{
   text-align: center;
+  width: 100%;
+  height: 60%;
+  margin: 0px;
+  padding: 0px;
+}
+
+section{
+  margin: 0;
+  width:100%;
+  height:100%;
+  background-color: #FFFFFF;
+}
+
+div.slide{
+  width: 90%;
+  height: 90%;
+  margin: 0px;
+  padding: 0px;
 }
 
 article.Informa{
@@ -24,7 +42,19 @@ article.Informa{
   padding: 0px;
 }
 
+article.tipos{
+  width: 100%;
+  height: 60%;
+  margin: 0px;
+  padding: 0px;
+}
 
+article.cards{
+  width: 100%;
+  height: 60%;
+  margin: 0px;
+  padding: 0px;
+}
 
 footer{
   background-color: #CEE3F6;
