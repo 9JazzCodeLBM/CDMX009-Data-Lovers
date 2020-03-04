@@ -8,7 +8,7 @@ body{
 
 header{
   width: 100%;
-  height: 40%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -16,7 +16,7 @@ header{
 nav.linksHP{
   text-align: center;
   width: 100%;
-  height: 60%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -25,33 +25,33 @@ section{
   margin: 0;
   width:100%;
   height:100%;
-  background-color: #FFFFFF;
+
 }
 
 div.slide{
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
 article.Informa{
   width: 100%;
-  height: 60%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
 article.tipos{
   width: 100%;
-  height: 60%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
 article.cards{
   width: 100%;
-  height: 60%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -63,4 +63,8 @@ footer{
   bottom: 0px;
   position: fixed;
   text-align: center;
+}
+
+#prof{
+  100px
 }
