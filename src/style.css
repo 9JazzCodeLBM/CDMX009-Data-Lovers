@@ -1,24 +1,38 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body, main, header, nav, section, article, figure {
+  display:block;
+}
+
 body{
-  margin: 0;
   width:100%;
-  height:100%;
+  height:auto;
+  margin: 0;
   background-color: #00BFA5;
 /*overflow-y scroll;*/
 }
 
 header{
   width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
+  height: 20%;
+  position: fixed;
+  background-color: #00BFA5;
 }
 
-nav.linksHP{
+header.logoP{
+  align: center;
+}
+
+nav.p{
   text-align: center;
   width: 100%;
-  height: 100%;
+  height: 20%;
   margin: 0px;
   padding: 0px;
+  background-color: #FFFFFF;
 }
 
 section{
@@ -35,21 +49,21 @@ div.slide{
   padding: 0px;
 }
 
-article.Informa{
+section.informa{
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
-article.tipos{
+section.tipos{
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
-article.cards{
+section.cards{
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -59,7 +73,7 @@ article.cards{
 footer{
   background-color: #CEE3F6;
   width: 100%;
-  height: 10%;
+  height: 8%;
   bottom: 0px;
   position: fixed;
   text-align: center;
