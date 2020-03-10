@@ -1,14 +1,21 @@
-// import data from './data/injuries/injuries.js';
-// import data from './data/lol/lol.js';
-// import data from './data/patient/patient.js';
+
 import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
-// import data from './data/steam/steam.js';
-// import data from './data/steam/worldbank.js';
+
 
 // esta es una función de ejemplo
 
-var Contenido = 
+var Contenido = document.querySelector(#tipos)
 export const example = () => {
-  return 'example';
-};
+return 'example';
+}
+
+
+
+//var mostrar
+//fetch('http://localhost:5000/data/pokemon/pokemon.json')
+//  .then(function(response) {
+//    return response.json();
+//  })
+//  .then(function(myJson) {
+//    console.log(myJson);
+//  });
