@@ -1,7 +1,9 @@
+
 *{
   padding: 0px;
   margin: 0px;
 }
+
 
 body{
   font-family: Neucha;
@@ -115,15 +117,23 @@ figure{
   float: none;
   width: 90%;
 }
+<<<<<<< HEAD
 
 .tipos{
   text-align: center;
 }
 
+=======
+.tipos{
+  text-align: center;
+}
+>>>>>>> 23fbad835359c27daecd1ff26a0d0220186682a1
 .imagcopo{
 width: 100px;
 height: 100px;
 }
+
+
 
 footer{
   width: 1024px;
@@ -142,3 +152,5 @@ footer{
   width: 45px;
   height: 45px;
 }
+
+*/
