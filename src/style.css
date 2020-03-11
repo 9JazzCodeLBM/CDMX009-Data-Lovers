@@ -3,61 +3,76 @@
   margin: 0px;
 }
 
-body, main, header, nav, section, article, figure {
-  display:block;
-}
-
 body{
+  font-family: Neucha;
   width:100%;
   height:auto;
   margin: 0px auto;
   background-color: #00BFA5;
 }
 
+.card{
+
+}
+
+.imag{
+    flex-wrap: wrap;
+    align-content: space-around;
+width: 10%;
+height: 10%;
+border-radius: 25px;
+  background-color: #FFFFFF;
+}
 header{
   width: 100%;
   height: 150px;
-  position: fixed;
   background-color: #00BFA5;
 }
+
 
 main{
   position: relative;
 }
 
-/*header.logoP{
-  align: center;
-}*/
+header{
+
+text-align:center;
+}
+
 
 nav{
   width: 100%;
   height: 50px;
-  background: #CFF0DA;
+  background: #00BFA5;
   margin-top: 10px;
 }
 
 nav ul{
   padding-top: 10px;
-  text-align: center;
+  text-align: right;
   padding-left: 400px;
+}
+.informa, .tipos{
+;
 }
 
 nav ul li{
   display: inline;
-  list-style-type: none;
+  list-style-type:none;
 }
 
 nav ul li a, nav ul li a:link, nav ul li a:visited{
-  float:left;
+  float:right;
   width: 200px;
   height: 25px;
   color: #FFFFFF;
   text-decoration:none;
-  /*font-family:*/
+  font-family;
   margin: 0 20px;
   padding-top: 5px;
   background: #00BFA5;
 }
+
 
 nav ul li a:hover{
   color: #FFFFFF ;
@@ -69,6 +84,8 @@ nav ul li a:active{
   background: #CEE3F6;
 }
 
+
+/
 article.slide{
   width: 760px;
   height: 150px;
@@ -79,28 +96,33 @@ article.slide{
   top:300px;
 }
 
-/*article.informa, article.tipos, article.cards{
+/*
+article.informa, article.tipos, article.cards{
   width: 760px;
   height: 450px;
   padding: 20px;
-  position: absolute;
   z-index: auto;
   top:170px;
+
   /*visibility: hidden;*/
 }
 
-/*article.informa, .tipos, .cards{
+article.informa, .tipos, .cards{
   float:right;
-}*/
+}
 
 figure{
   float: none;
   width: 90%;
 }
 
+.tipos{
+  text-align: center;
+}
+
 .imagcopo{
-  width: 100px;
-  height: 100px;
+width: 100px;
+height: 100px;
 }
 
 footer{
