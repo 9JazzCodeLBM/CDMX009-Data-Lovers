@@ -1,5 +1,8 @@
+import data from './data/pokemon/pokemon.js';
+let list = data.pokemon
 
-import {getCharacterbyType} from './data.js';
+list.map(p => console.log(p.name));
+list.map(p => console.log(p.type));
 
 
 //Nodo
