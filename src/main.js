@@ -10,7 +10,7 @@ types.forEach(b=>b.addEventListener("click", e=>{console.log(getCharacterbyType(
 }
 ))
 
-// let list = data.pokemon
+ let list = data.pokemon
 
 // list.map(p => console.log(p.name));
 // list.map(p => console.log(p.type));
