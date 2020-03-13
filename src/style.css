@@ -13,9 +13,13 @@ body{
 }
 
 
+
 .imag{
-  background-color: blue;
+  background-color:#008e76;
+  border-radius: 20px;
   }
+
+
 header{
   width: 100%;
   height: 150px;
@@ -89,8 +93,8 @@ article.slide{
   top:300px;
 }
 
-/*
-article.informa, article.tipos, article.cards{
+
+/* article.informa, article.tipos, article.cards{
   width: 760px;
   height: 450px;
   padding: 20px;
@@ -98,7 +102,7 @@ article.informa, article.tipos, article.cards{
   top:170px;
 
   /*visibility: hidden;*/
-}
+} */
 
 article.informa, .tipos, .cards{
   float:right;
@@ -137,5 +141,3 @@ footer{
 }
 
 */
-#pokes{text-align: center
-}
