@@ -10,11 +10,37 @@ body{
   height:auto;
   margin: 0px auto;
   background-color: #00BFA5;
+ }
+
+#pokes{
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
+#info,#tipo{
+  display: none;
+}
+.card{
+  margin:5px;
+  box-shadow:0px 2px 10px #3AC569;
+  background: #FFFFFF;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  width:180px;
+  transition:all .4s;
+}
+.card:hover{
+  box-shadow:1px 5px 10px #FBD14B;
+  transform:scale(1.65)
+}
 
+#uno{
+text-align: center;
+}
 
-.imag{
+ #uno,#dos{
   background-color:#008e76;
   border-radius: 20px;
   }
@@ -140,4 +166,75 @@ footer{
   height: 45px;
 }
 
-*/
+img{
+  width: : 680px;
+}
+
+/* Contenedor del slide */
+
+#container{
+  width: 640px;
+  margin: 300px auto;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px #5F9EA0;
+  border-radius: 20px;
+}
+
+/* Lista dentro del Contenedor del slide y caja flexible */
+
+#container ul{
+  list-style: none;
+  width: 2640px;
+  display: flex;
+  animation: slide 20s infinite alternate;
+}
+
+
+
+@keyframes slide{
+  0% {margin-left: -40px;}
+  20% {margin-left: -40px;}
+
+  25% {margin-left: -720px;}
+  45% {margin-left: -720px;}
+
+  50% {margin-left: -1420px;}
+  70% {margin-left: -1420px;}
+
+  75% {margin-left: -2100px;}
+  100% {margin-left: -2100px;}
+}
+
+
+img{
+  width: : 680px;
+}
+
+#container{
+  width: 640px;
+  margin: 300px auto;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px #5F9EA0;
+  border-radius: 20px;
+}
+
+#container ul{
+  list-style: none;
+  width: 2640px;
+  display: flex;
+  animation: slide 20s infinite alternate;
+}
+
+@keyframes slide{
+  0% {margin-left: -40px;}
+  20% {margin-left: -40px;}
+
+  25% {margin-left: -720px;}
+  45% {margin-left: -720px;}
+
+  50% {margin-left: -1420px;}
+  70% {margin-left: -1420px;}
+
+  75% {margin-left: -2100px;}
+  100% {margin-left: -2100px;}
+}
