@@ -170,7 +170,7 @@ img{
   width: : 680px;
 }
 
-/* Contenedor del slide */
+Contenedor del slide
 
 #container{
   width: 640px;
@@ -180,7 +180,7 @@ img{
   border-radius: 20px;
 }
 
-/* Lista dentro del Contenedor del slide y caja flexible */
+Lista dentro del Contenedor del slide y caja flexible
 
 #container ul{
   list-style: none;
@@ -189,7 +189,7 @@ img{
   animation: slide 20s infinite alternate;
 }
 
-
+Animacion del slide
 
 @keyframes slide{
   0% {margin-left: -40px;}
