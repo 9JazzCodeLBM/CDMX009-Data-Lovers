@@ -21,8 +21,9 @@ https://www.figma.com/proto/Brq5NtgDbBE45cLceqaic7/Untitled?node-id=2%3A2&scalin
 
 ##Imagen de la app
 
-![Imagen pantalla1](src/icons/pantalla uno.png)
-![Imagen PAntalla 2](src/icons/pantalla2.png)
+![Imagen pantalla1](src/icons/pantalla1.png)
+![Imagen Pantalla 2](src/icons/pantalla2.png)
+![imagen pantalla3](src/icons/pantalla3.png)
 ![imagen pantalla3](src/icons/pantallad.png)
 
 ## Índice
