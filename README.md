@@ -8,10 +8,23 @@ el tipo de dulces y los que necesita para evolucionar.
 Estas fueron nuestras primeras historias de usuario
 ![Imagen Historias](src/icons/historias.jpg)
 
-Despues de escribirlas comenzamos 
+Después de escribirlas comenzamos a diseñar en un boceto de baja fidelidad
+hicimos iteración con varias de nuestras compañeras y al final decidimos eliminar algunas
+pantallas y pasos
+
+
+![Imagen Sketch](src/icons/sketch.jpg)
+
 
 ## Prototipo de alta fidelidad
 https://www.figma.com/proto/Brq5NtgDbBE45cLceqaic7/Untitled?node-id=2%3A2&scaling=scale-down
+
+##Imagen de la app
+
+![Imagen pantalla1](src/icons/paginauno.png)
+![Imagen PAntalla 2](src/icons/pagina2.png)
+![imagen pantalla3](src/icons/pantallad.png)
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
