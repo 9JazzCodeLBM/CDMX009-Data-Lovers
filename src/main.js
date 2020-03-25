@@ -22,8 +22,8 @@ types.forEach(b=>b.addEventListener("click", e=>{createCard(getCharacterbyType(e
     <p>${pokemon.name}</p>
 
   <p>Numero: ${pokemon.num}</p>
-  <p> ${pokemon.candy}</p>
-  <p> ${pokemon.candy_count}</p>
+  <p> Tipo de Dulce: ${pokemon.candy}</p>
+  <p>Dulces para evolucion: ${pokemon.candy_count}</p>
   </div>
   `
  }

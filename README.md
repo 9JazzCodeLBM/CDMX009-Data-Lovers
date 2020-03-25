@@ -1,4 +1,16 @@
-# Data Lovers
+#Pokemon new Lovers
+
+Pokemon new lovers es una app que esta dirigida a usuarios nuevos y no tan nuevos
+en ella encontraran una lista de pokemones filtrados por tipo, se mostrara el personaje
+el tipo de dulces y los que necesita para evolucionar.
+
+##Historias de usuario
+Estas fueron nuestras primeras historias de usuario
+![Imagen Historias](src/icons/historias.jpg)
+
+Despues de escribirlas comenzamos 
+
+## Prototipo de alta fidelidad
 https://www.figma.com/proto/Brq5NtgDbBE45cLceqaic7/Untitled?node-id=2%3A2&scaling=scale-down
 ## Índice
 
