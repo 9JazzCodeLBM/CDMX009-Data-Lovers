@@ -1,4 +1,30 @@
-# Data Lovers
+#Pokemon new Lovers
+
+Pokemon new lovers es una app que esta dirigida a usuarios nuevos y no tan nuevos
+en ella encontraran una lista de pokemones filtrados por tipo, se mostrara el personaje
+el tipo de dulces y los que necesita para evolucionar.
+
+##Historias de usuario
+Estas fueron nuestras primeras historias de usuario
+![Imagen Historias](src/icons/historias.jpg)
+
+Después de escribirlas comenzamos a diseñar en un boceto de baja fidelidad
+hicimos iteración con varias de nuestras compañeras y al final decidimos eliminar algunas
+pantallas y pasos
+
+
+![Imagen Sketch](src/icons/sketch.jpg)
+
+
+## Prototipo de alta fidelidad
+https://www.figma.com/proto/Brq5NtgDbBE45cLceqaic7/Untitled?node-id=2%3A2&scaling=scale-down
+
+##Imagen de la app
+
+![Imagen pantalla1](src/icons/pantalla1.png)
+![Imagen Pantalla 2](src/icons/pantalla2.png)
+![imagen pantalla3](src/icons/pantalla3.png)
+![imagen pantalla3](src/icons/pantallad.png)
 
 ## Índice
 
@@ -86,34 +112,36 @@ Revisa la lista y reflexiona sobre los objetivos que conseguiste en el
 proyecto anterior. Piensa en eso al decidir tu estrategia de trabajo individual
 y de equipo.
 
+
+LAURA VIRIDIANA BAILÓN
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener _feedback_ e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [ X ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ X ] Crear prototipos para obtener _feedback_ e iterar.
+- [ X ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 - [ ] Planear y ejecutar _tests_ de usabilidad.
 
 ### HTML y CSS
 
-- [ ] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
-- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
+- [ X ] Entender y reconocer por qué es importante el HTML semántico.
+- [ X ] Identificar y entender tipos de selectores en CSS.
+- [ X ] Entender como funciona `flexbox` en CSS.
+- [ X ] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
 
 - [ ] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
 - [ ] Manejar eventos del DOM. (addEventListener)
-- [ ] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
+- [ X ] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
 
 ### Javascript
 
-- [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-- [ ] Manipular objects (key | value).
+- [ X ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
+- [ X ] Manipular objects (key | value).
 - [ ] Entender el uso de condicionales (`if-else` | `switch`).
 - [ ] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
-- [ ] Utilizar funciones (parámetros | argumentos | valor de retorno).
+- [ X ] Entender la diferencia entre expression y statements.
+- [ X ] Utilizar funciones (parámetros | argumentos | valor de retorno).
 - [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
 - [ ] Utilizar ES Modules (`import` | `export`).
 
@@ -121,14 +149,61 @@ y de equipo.
 - [ ] Testear funciones (funciones puras).
 
 ### Git y GitHub
-- [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
-- [ ] Colaborar en Github (pull requests).
+- [ X ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+- [ X ] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
+- [ X ] Colaborar en Github (pull requests).
 
 ### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización).
-- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Organiza y dividir el código en módulos (Modularización).
+- [ X ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
+
+Paola Tapia
+### UX
+
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener _feedback_ e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Planear y ejecutar _tests_ de usabilidad.
+
+### HTML y CSS
+
+- [x] Entender y reconocer por qué es importante el HTML semántico.
+- [x] Identificar y entender tipos de selectores en CSS.
+- [x] Entender como funciona `flexbox` en CSS.
+- [x] Construir tu aplicación respetando el diseño planeado (maquetación).
+
+### DOM
+
+- [x] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
+- [x] Manejar eventos del DOM. (addEventListener)
+- [-] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
+
+### Javascript
+
+- [x] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
+- [-] Manipular objects (key | value).
+- [x] Entender el uso de condicionales (`if-else` | `switch`).
+- [x] Entender el uso de bucles (`for` | `forEach`).
+- [-] Entender la diferencia entre expression y statements.
+- [-] Utilizar funciones (parámetros | argumentos | valor de retorno).
+- [-] Entender la diferencia entre tipos de datos atómicos y estructurados.
+- [x] Utilizar ES Modules (`import` | `export`).
+
+### Pruebas Unitarias (_testing_)
+- [ ] Testear funciones (funciones puras).
+
+### Git y GitHub
+- [x] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+- [x] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
+- [x] Colaborar en Github (pull requests).
+
+### Buenas prácticas de desarrollo
+- [-] Organizar y dividir el código en módulos (Modularización).
+- [-] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [-] Utilizar linter para seguir buenas prácticas (ESLINT).
+
+
 
 ## 4. Consideraciones generales
 

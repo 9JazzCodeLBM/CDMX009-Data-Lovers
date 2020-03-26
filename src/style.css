@@ -18,9 +18,9 @@ body{
 
 }
 
-/*#info,#tipo{
+/* #info,#tipo{
   display: none;
-}*/
+} */
 .card{
   margin:5px;
   box-shadow:0px 2px 10px #3AC569;
@@ -224,7 +224,50 @@ img{
   width: : 680px;
 }
 
+<<<<<<< HEAD
 /* Contenedor del slide
+=======
+Contenedor del slide
+
+#container{
+  width: 640px;
+  margin: 300px auto;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px #5F9EA0;
+  border-radius: 20px;
+}
+
+Lista dentro del Contenedor del slide y caja flexible
+
+#container ul{
+  list-style: none;
+  width: 2640px;
+  display: flex;
+  animation: slide 20s infinite alternate;
+}
+
+Animacion del slide
+
+@keyframes slide{
+  0% {margin-left: -40px;}
+  20% {margin-left: -40px;}
+
+  25% {margin-left: -720px;}
+  45% {margin-left: -720px;}
+
+  50% {margin-left: -1420px;}
+  70% {margin-left: -1420px;}
+
+  75% {margin-left: -2100px;}
+  100% {margin-left: -2100px;}
+}
+
+
+img{
+  width: : 680px;
+}
+
+>>>>>>> 88d2390c3c85b7c7dd8dfd137991378ec95990b8
 #container{
   width: 640px;
   margin: 180px auto;
