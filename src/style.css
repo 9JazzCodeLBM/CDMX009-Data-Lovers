@@ -15,12 +15,8 @@ body{
 #pokes{
   display: flex;
   flex-wrap: wrap;
-
 }
 
-/* #info,#tipo{
-  display: none;
-} */
 .card{
   margin:5px;
   box-shadow:0px 2px 10px #3AC569;
@@ -30,20 +26,20 @@ body{
   padding:10px;
   width:180px;
   transition:all .4s;
+  display: flex;
+  flex-wrap: wrap;
 }
 .card:hover{
   box-shadow:1px 5px 10px #FBD14B;
   transform:scale(1.65)
 }
 
-#uno{
-text-align: center;
-}
 
- #uno,#dos{
+#uno{
   background-color:#008e76;
   border-radius: 20px;
-  }
+  display: flex;
+    }
 
 
 header{
@@ -101,33 +97,13 @@ nav ul li a:active{
 }
 
 
-/*
-article.slide{
-  width: 760px;
-  height: 100px;
-  background: #FFFFFF;
-  padding: 20px;
-  position: absolute;
-  z-index: auto;
-  top:300px;
-}
-
-
-/* article.informa, article.tipos, article.cards{
-  width: 760px;
-  height: 450px;
-  padding: 20px;
-  z-index: auto;
-  top:170px;
-
-  /*visibility: hidden;*/
 
   img{
   width: : 680px;
 
 }
 
-#container{
+ #inicio{
   width: 630px;
   height: 200px;
   margin: 180px auto;
@@ -136,9 +112,9 @@ article.slide{
   border-radius: 20px;
 }
 
-#container ul{
+#inicio ul{
   list-style: none;
-  width: 2640px;
+  width: 640px;
   display: flex;
   animation: slide 20s infinite alternate;
 }
@@ -157,29 +133,18 @@ article.slide{
   100% {margin-left: -2080px;}
 }
 
-article.informa, .tipos{
-  float:right;
-}
 
-article.informa{
-  display:none;
-}
-
-#pokes{
-    display:flex;
-    flex-wrap:wrap;
-    align-content: space-around;
-}
 
 .cards{
   margin:5px;
   box-shadow:0px 2px 10px #3AC569;
-  /*background: #FFFFFF;*/
+  background: #FFFFFF;
   text-align:center;
   border-radius:10px;
   padding:10px;
   width:180px;
   transition:all .4s;
+  display: flex;
 }
 
 .cards:hover{
@@ -218,84 +183,3 @@ footer{
   width: 45px;
   height: 45px;
 }
-
-/*
-img{
-  width: : 680px;
-}
-
-<<<<<<< HEAD
-/* Contenedor del slide
-=======
-Contenedor del slide
-
-#container{
-  width: 640px;
-  margin: 300px auto;
-  overflow: hidden;
-  box-shadow: 2px 2px 10px #5F9EA0;
-  border-radius: 20px;
-}
-
-Lista dentro del Contenedor del slide y caja flexible
-
-#container ul{
-  list-style: none;
-  width: 2640px;
-  display: flex;
-  animation: slide 20s infinite alternate;
-}
-
-Animacion del slide
-
-@keyframes slide{
-  0% {margin-left: -40px;}
-  20% {margin-left: -40px;}
-
-  25% {margin-left: -720px;}
-  45% {margin-left: -720px;}
-
-  50% {margin-left: -1420px;}
-  70% {margin-left: -1420px;}
-
-  75% {margin-left: -2100px;}
-  100% {margin-left: -2100px;}
-}
-
-
-img{
-  width: : 680px;
-}
-
->>>>>>> 88d2390c3c85b7c7dd8dfd137991378ec95990b8
-#container{
-  width: 640px;
-  margin: 180px auto;
-  overflow: hidden;
-  box-shadow: 8px 8px 14px #5F9EA0;
-  border-radius: 20px;
-}
-
-/* Lista dentro del Contenedor del slide y caja flexible
-#container ul{
-  list-style: none;
-  width: 2640px;
-  display: flex;
-  animation: slide 20s infinite alternate;
-}
-
-/*Animacion
-@keyframes slide{
-  0% {margin-left: -40px;}
-  20% {margin-left: -40px;}
-
-  25% {margin-left: -720px;}
-  45% {margin-left: -720px;}
-
-  50% {margin-left: -1400px;}
-  70% {margin-left: -1400px;}
-
-  75% {margin-left: -2080px;}
-  100% {margin-left: -2080px;}
-}
-*/
